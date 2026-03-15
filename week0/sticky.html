@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Position: Sticky & Background 실습</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    .container {
+      width: 100%;
+      min-height: 200vh;
+      padding: 10px;
+      background-color: greenyellow;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .box {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+      background-color: lightgoldenrodyellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      
+      background-image: url('./\ -5.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .box2 {
+      background-color: purple;
+      color: white;
+      position: sticky;
+      top: 40px;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box box1">1</div>
+    <div class="box box2">Sticky</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+    <div class="box box6">6</div>
+    <div class="box box7">7</div>
+    <div class="box box8">8</div>
+    <div class="box box9">9</div>
+    <div class="box box10">10</div>
+    <div class="box box11">11</div>
+    <div class="box box12">12</div>
+    <div class="box box13">13</div>
+    <div class="box box14">14</div>
+    <div class="box box15">15</div>
+    <div class="box box16">16</div>
+  </div>
+</body>
+</html>
